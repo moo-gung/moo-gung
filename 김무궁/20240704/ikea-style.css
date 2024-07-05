@@ -1,0 +1,74 @@
+/* 웹폰트 CDN */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+* {
+    background-color: lightgray;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+div {
+    width: 290px;
+
+}
+
+li {
+    position: relative;
+    top: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 30px;
+}
+
+footer>ul {
+    font-size: 12px;
+}
+
+
+#logo {
+    font-size: 30px;
+    letter-spacing: 10px;
+    display: inline;
+    justify-content: space-around;
+
+}
+
+#logo:hover {
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+#globe {
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 700px;
+    right: 100px;
+    float: right;
+    padding: 10px;
+}
+
+#globe:hover {
+    border: 3px solid black;
+}

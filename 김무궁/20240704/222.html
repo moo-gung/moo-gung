@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+        }
+        img{
+            position: absolute;
+            width: 160px;
+            height: 200px;
+        }
+        #spade-A{
+            z-index: -3;
+            left: 10px;
+            top: 20px;
+        }
+        #spade-2{
+            z-index: 2;
+            left: 40px;
+            top: 30px;
+        }
+        #spade-3{
+            z-index: 7;
+            left: 80px;
+            top: 40px;
+        }
+        #spade-7{
+            z-index: 7;
+            left: 120px;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h3>z-index 프로퍼티</h3>
+    HTML태그들을 z축을 따라 수직으로 쌓는 순서 staking order지정하는 <br>
+    프로퍼티로 <mark>값이 클수로 위에 쌓인다. </mark>
+    <hr>
+    <div>
+        <img id="spade-A" src="../images/spade-A.png" alt="">
+        <img id="spade-2" src="../images/스크린샷 2024-07-04 120741.png" alt="">
+        <img id="spade-3" src="../images/spade-3.png" alt="">
+        <img id="spade-7" src="../images/spade-7.png" alt="">
+    </div>
+
+</body>
+</html>

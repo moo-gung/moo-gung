@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>회원 정보 입력</h3>
+    <form action="">
+        <fieldset>
+            <legend>로그인 정보</legend>
+            <label for="user-id">아이디</label>
+            <input type="text" id="user-id" name="user-id"> <br>
+            <label for="user-pw">비밀번호</label>
+            <input type="text" id="user-pw" name="user-pw" size="8"> <input type="submit" value="로그인">
+        </fieldset>
+        <fieldset>
+            <legend>추가 정보</legend>
+            메일 주소 : <input type="email"> <br><br>
+            메일 수신 <label for="메일 수신 동의"><input type="radio" id="메일 수신 동의" name="여부" value="m_1" checked>메일 수신 동의</label>
+            <label for="메일 수신 거부"><input type="radio" id="메일 수신 거부" name="여부" value="m_2">메일 수신 거부</label>
+            <br><br>
+            연락처 : <input type="phone" placeholder="하이픈 빼고 입력해주세요." size="18" maxlength="13" autocomplete="off"> <br>
+            생년월일 : <input type="birth" placeholder="YYYY-MM-DD" size="10" maxlength="10"> <br>
+            취미 : <label for="hobby1"><input type="checkbox" id="hobby1" value="h_1" checked>독서</label>
+            <label for="hobby2"><input type="checkbox" id="hobby2" value="h_2">음악 감상</label>
+            <label for="hobby3"><input type="checkbox" id="hobby3" value="h_3">운동</label> <br><br>
+            가입 경로 <label for="path"></label>
+            <select id="path">
+                <option value="">블로그</option>
+                <option value="">검색</option>
+                <option value="">지인 추천</option>
+                <option value="">기타</option>
+            </select> <br> <br>
+            메모 <textarea name="" id="" cols="25" rows="10" placeholder="자유롭게 의견을 남겨주세요."></textarea> <br>
+        </fieldset> <br>
+        <input type="submit" value="제출">
+    </form>
+</body>
+
+</html>           

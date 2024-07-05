@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvis Presley</title>
+    <style>
+        body {
+            background-color: linen;
+            color: green;
+            margin-left: 40px; margin-right: 40px;
+        }
+
+        h3 {
+            text-align: center;
+            color: darkred;
+        }
+        hr {
+            height: 5px;
+            border: solid gray;
+            background-color: grey;
+        }
+
+        span {
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+    <script>
+        function show() { //<img>에 이미지 달기
+            document.getElementById("fig").src = "../images/루피.jpg"
+        }
+        function hide() { //<img>에 이미지 제거
+            document.getElementById("fig").src = ""
+        }
+    </script>
+    <script>
+        function show1() { //<img>에 이미지 달기
+            document.getElementById("펭귄").src = "../images/gif1.gif"
+        }
+        function hide1() { //<img>에 이미지 제거
+            document.getElementById("펭귄").src = ""
+        }
+    </script>
+    <script>
+        function show2() { //<img>에 이미지 달기
+            document.getElementById("타자").src = "../images/타자.jpg"
+        }
+        function hide2() { //<img>에 이미지 제거
+            document.getElementById("타자").src = ""
+        }
+    </script>
+</head>
+
+<body>
+    <h3 onmouseover="show()" onmouseout="hide()"> 김무궁 </h3>
+    <hr>
+    <!--div는 자동 줄바꿈 : 블록요소 (p태그처럼)-->
+    <div><img id="fig" alt=""></div>
+    <h2>자기소개</h2>
+    <p>안녕하세요! <br>
+        <br>
+        웹 개발에 관심을 가지게 된 입문자입니다. <br>
+        <br>
+        아직 모르는게 많으니 서로 도움 주고 받으며 
+        친해졌으면 좋겠습니다. 
+    </p>
+    <h4 onmouseover="show1()" onmouseout="hide1()">기본정보</h4>
+    <div><img id="펭귄" alt=""></div>
+    <ul>
+        <li>이름 : 김무궁</li>
+        <li>나이 : 2001년생 (24)</li>
+        <li>학과 : 메카트로닉스공학과</li>
+        <li>사는 곳 : 인천 서구</li>
+        <li>취미 : 농구, 축구</li>
+    </ul>
+    <h4 onmouseover="show2()" onmouseout="hide2()">입문자이기에 해야할 노력들</h4>
+    <div><img id="타자" alt=""></div>
+    <ol type="1">
+        <li>영타 연습하기</li>
+        <li>웹 개발 기초 개념 학습하기</li>
+        <li>예습 및 복습하기</li>
+        <li>몸에 익히기</li>
+    </ol> 
+    <caption>나의 정보</caption>
+    <table border>
+         <tbody>
+            <tr>
+                <td>인스타그램</td> <td> <a href="http://instagram.com" target="_blank"> <img src="../images/ddd.jpg" width="20" height="20" alt=""></a>Moo.__.g</td>
+            <tr>
+                <td>이메일</td> <td> <a href="http://naver.com" target="_blank"> <img src="../images/ssss.jpg" width="20" height="20" alt="">rlaanrnd1027@naver.com</td>
+        </tbody>
+    </table>
+ 
+
+</body>
+
+</html>

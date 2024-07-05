@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position_absolute</title>
+    <style>
+        /* section {
+            display: flex;
+            justify-content: center;
+        } */
+         *{
+            padding: 0;
+            margin: 0;
+         }
+
+        div {
+            width: 100px;
+            height: 100px;
+        }
+
+        .box1 {
+            background-color: lightgreen;
+            width: 500px;
+            height: 150px;
+            position: absolute;
+            
+
+        }
+
+        .box2 {
+            background-color: cadetblue;
+            position: absolute;
+            left: 400px;
+            
+        }
+
+        .box3 {
+            background-color: darkcyan;
+            position: relative;
+            left: 40px;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box1">박스1</div>
+        <div class="box2">박스2</div>
+        <div class="box3">박스3</div>
+    </section>
+</body>
+
+</html>

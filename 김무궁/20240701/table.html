@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border>
+        <caption>색깔의 종류</caption>
+        <thead>
+            <tr>
+                <th>종류</th>
+                <th colspan="2" style="background-color: yellowgreen;">밝은 계열</th>
+                <th>어두운 계열</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>빨강</td>
+                <td>분홍색</td>
+                <td>검정</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>파랑</td>
+                <td rowspan="2" style="background-color: lightblue">하늘색</td>
+                <td>남색</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>노랑</td>
+                <td>회색</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>합계</td>
+                <td>3개</td>
+                <td>3개</td>
+                <td>3개</td>
+            </tr>
+        </tfoot>
+    </table>
+    표의 끝
+    <table border>
+        <caption>실속형과 고급형 상품 구성</caption>
+        <h3>상품구성</h3>
+        <thead>
+            <tr>
+                <th>용도</th>
+                <th>중량</th>
+                <th>개수</th>
+                <th>가격</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">실속형</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>17000원</td>
+            </tr>
+            <tr>
+                <td>5kg</td>
+                <td>18~25과</td>
+                <td>25000원</td>
+            </tr>
+            <tr>
+                <td rowspan="2">고급형</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>28000원</td>
+            </tr>
+            <tr>
+                <td>5kg</td>
+                <td>18~25과</td>
+                <td>45000원</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>표에 이미지 삽입</h3>
+    <table>
+        <caption>좋아하는 과일</caption>
+        <tbody>
+            <tr>
+                <td><img src="https://gongu.copyright.or.kr/gongu/wrt/cmmn/wrtFileImageView.do?wrtSn=11192964&filePath=L2Rpc2sxL25ld2RhdGEvMjAxNC8yMS9DTFM2L2RpZ2lfMTExOTI5NjRfMDEyMDE0MTExNTIw&thumbAt=Y&thumbSe=b_tbumb&wrtTy=10006"
+                        width="200 " alt=""></td>
+                <td><img src="https://cdn.senmoney.co.kr/news/photo/202308/17093_17213_461.jpg" width="200 " alt="">
+                </td>
+                <td><img src="https://images.pexels.com/photos/15763953/pexels-photo-15763953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        width="200 " alt=""></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 
+     table 표 전체를 담는 컨테이너
+     caption 표 제목 
+     thead 헤딩 셀 그룹
+     tfoot 바닥 셀 그룹
+     tbody 데이터 셀 그룹
+     tr 행, 여러 개의 td, th 포함
+     th 제목 (헤딩) 셀 : 두꺼운 글꼴
+     td 데이터 셀(칸)
+     -->
+
+</body>
+
+</html>
