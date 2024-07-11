@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;           
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+        }
+        nav li{
+            padding: 0 15px;
+        }
+        nav .li:hover{
+            background-color: aliceblue;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        a:hover{
+            color: red;
+        }
+        main{
+            height: 800px;
+            background-color: beige;
+            text-align: center;
+            /* display: flex;
+            justify-content: space-around; */
+            
+        }
+        main ul{
+            list-style: none;
+        }
+        main li{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        footer{
+            background-color: aqua;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html">LOGO</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">News</a></li>
+                <li><a href="blog.html">Book</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="github.html">Review</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <ul>
+                <li><a href="#">아이콘</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <p>오늘의 뉴스</p> <br><br>
+        <ul>
+            <li><iframe width="850" height="478" src="https://news.sbs.co.kr/news/player.do?newsId=N1007718424&plink=SBSNEWS&cooper=SBSNEWSMAIN&cornerId=" frameborder="0" scrolling="no" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li> <br><br>
+            <li>1. 윤석열 대통령...</li>
+            <li>2. 기준 금리가...</li>
+            <li>3. 광화문 광장.. 태극기 논란...</li>
+            <li>4. 전 미 하원의장이 바이든을 향해...</li>
+        </ul>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
