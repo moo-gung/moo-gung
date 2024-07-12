@@ -20,16 +20,16 @@
 
         }
 
-        ul {
+        nav ul {
             list-style: none;
             display: flex;
         }
 
-        li {
+        nav li {
             padding: 0 15px;
         }
 
-        li:hover {
+        nav li:hover {
             background-color: aliceblue;
         }
 
@@ -43,14 +43,13 @@
         main {
             height: 800px;
             background-color: beige;
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
-        main div{
-            display: flex;
+            /* display: flex; */
             justify-content: center;
             align-items: center;
+            text-align: center;
+        }
+        main ul{
+            list-style: none;
         }
 
         #container {
@@ -111,15 +110,23 @@
         </div>
     </nav>
     <main>
-        <p>오늘의 도서</p>
+        <h1>오늘의 도서</h1> <br><br>
         <div><div id="container">
             <div class="arrow" id="left"> &lang; </div>
             <div class="arrow" id="right"> &rang; </div>
-        </div>
+        </div> <br><br>
+        <ul>
+            <li>1. 경영, 이나모리 가즈오 원점을 말하다</li>
+            <li>2. 인간이 되다</li>
+            <li>3. 최소한의 시민</li>
+            <li>4. mymy</li>
+            <li>5. 온전히 평등하고 지극히 차별적인</li>
+        </ul>
     </div>
+    
     </main>
     <footer>
-       
+       <p>출처 : 교보문고</p>
     </footer>
 
     <script>
